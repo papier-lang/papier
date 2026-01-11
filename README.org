@@ -1,0 +1,44 @@
+#+title: Papier: a simple recursive document language
+
+* Info
+Papier is a language where you only have text and sub-documents. Sub-documents
+have titles, tags, and may be in an external format.
+
+** Inspiration
+- Emacs' ~org-mode~
+  - Tree
+    - Tree-based operations
+  - Tags
+    - Search
+  - Extensibility
+    - Agenda, TODOs
+    - Code blocks & evaluation
+    - Drawers
+      - Metadata
+    - Tables
+
+- JSON' simplicity
+  - It's hard to take things away from JSON
+  - Powerful because of recursion
+  - Fast because it's a small language
+  - Simple to learn because it's a small language
+  - Although IMO it's too lax on indentation (and types too, but that's a data language).
+
+- Markdown's readability
+  - Simple formatting, meant to be readable in raw text.
+
+- "smart" tabs
+  - Tabs indent semantically, spaces align
+    - Line width might be a problem, but we have line wrapping and stupidly wide screens nowadays.
+    - Randomly breaking lines because of a width issue breaks semantics.
+      - It's easier to author a document where lines are sentences/ideas rather
+        than random parts of a paragraph.
+
+
+* References
+- [[https://gist.github.com/Dietr1ch/0c650d0246442519a5735fd970d3a5ec][gist| First publicly available Papier document]]
+- [[https://www.json.org/json-en.html][JSON]]
+- [[https://news.ycombinator.com/item?id=46564116][HN| org-mode syntax is one of the most reasonable markup languages]]
+
+
+#  LocalWords:  Papier Damn Isnt Org Mode A Bit Too Complex
