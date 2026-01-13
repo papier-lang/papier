@@ -16,7 +16,7 @@ This language is my attempt at creating that.
 It's even simpler than ~JSON~, and through few features and recursion, powerful enough to express org-mode trees without being too complex on its own.
 
 ** Inspiration
-- Emacs' [[https://orgmode.org/][~org-mode~]]
+- Emacs' [[https://orgmode.org/][org-mode]]
   - Tree
     - Tree-based operations
   - Tags
@@ -28,7 +28,7 @@ It's even simpler than ~JSON~, and through few features and recursion, powerful 
       - Metadata
     - Tables
 
-- [[https://www.json.org/json-en.html][~JSON'~]] simplicity
+- [[https://www.json.org/json-en.html][JSON's]] simplicity
   - It's hard to take things away from it without losing important data-representation features.
   - Powerful because of recursion
   - Fast because it's a small language
@@ -83,7 +83,7 @@ Real-life paper has been the ultimate canvas for visual expression
 - Have a strict parser defining the language
   - The one and only parser.
 
-[[https://github.com/papier-lang/tree-sitter-papier][~tree-sitter~ grammar]]
+[[https://github.com/papier-lang/tree-sitter-papier][tree-sitter grammar]]
 
 *** Have a lenient authoring tooling
 It should be trivial to author valid files.
