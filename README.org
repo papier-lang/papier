@@ -1,7 +1,7 @@
 #+title: Papier: a simple recursive document language
 
 * Info
-Papier is a strict, small markup language where you only have text and /sub-documents/.
+Papier is a strict, small document language where you only have text and /sub-documents/.
 Sub-documents have titles, tags, and may have content in a different format.
 
 ** Why a new language?
